@@ -5,11 +5,19 @@
 
 # The Data Model {#data_model}
 
-A netCDF dataset contains dimensions, variables, and attributes, which all have both a name and an ID number by which they are identified.  
-These components can be used together to capture the meaning of data and relations among data fields in an array-oriented dataset.
+<!--
+The strikethrough text in this section has been moved to NUG-new/netcdf_overview.md
+-->
+
+~~A netCDF dataset contains dimensions, variables, and attributes, which all have both a name and an ID number by which they are identified.~~  
+~~These components can be used together to capture the meaning of data and relations among data fields in an array-oriented dataset.~~
 The netCDF library allows simultaneous access to multiple netCDF datasets which are identified by dataset ID numbers, in addition to ordinary file names.
 
 ## Enhanced Data Model in NetCDF-4/HDF5 Files {#enhanced_nc4_hdf5}
+
+<!--
+The strikethrough text in this section has been moved to NUG-new/data_models.md
+-->
 
 Files created with the netCDF-4 format have access to an enhanced data model, which includes named groups.
 Groups, like directories in a Unix file system, are hierarchically organized, to arbitrary depth.
@@ -18,33 +26,38 @@ They can be used to organize large numbers of variables.
 ![Enhanced NetCDF Data Model](images/nc4-model.png "Enhanced NetCDF Data Model")
 
 Each group acts as an entire netCDF dataset in the classic model.
-That is, each group may have attributes, dimensions, user-defined types, and variables, as well as other groups.
+
+~~That is, each group may have attributes, dimensions, user-defined types, and variables, as well as other groups.~~
 
 The default group is the root group, which allows the classic netCDF data model to fit neatly into the new model.
 
-Dimensions are scoped such that they can be referenced in all other groups. That is, dimensions can be shared between variables in different groups.
+~~Dimensions are scoped such that they can be referenced in all other groups. That is, dimensions can be shared between variables in different groups.~~
 
-In netCDF-4 files, the user may also define a type. For example a compound type may hold information from an array of C structures, or a variable length type allows the user to read and write arrays of variable length values.
+~~In netCDF-4 files, the user may also define a type. For example a compound type may hold information from an array of C structures, or a variable length type allows the user to read and write arrays of variable length values.~~
 
-Types are also scoped such that they can be referenced in all other groups. That means, for example, that variables in different groups can have the same type.
+~~Types are also scoped such that they can be referenced in all other groups. That means, for example, that variables in different groups can have the same type.~~
 
-Variables, groups, and types share a namespace. Within the same group, variables, groups, and types must have unique names. (That is, a type and variable may not have the same name within the same group, and similarly for sub-groups of that group.)
+~~Variables, groups, and types share a namespace. Within the same group, variables, groups, and types must have unique names. (That is, a type and variable may not have the same name within the same group, and similarly for sub-groups of that group.)~~
 
 Groups and user-defined types are only available in files created in the netCDF-4/HDF5 format. They are not available for classic format files.
 
 # Dimensions {#dimensions}
 
-A dimension may be used to represent a real physical dimension, for example, time, latitude, longitude, or height. A dimension might also be used to index other quantities, for example station or model-run-number.
+<!--
+The strikethrough text in this section has been moved to NUG-new/data_models.md
+-->
 
-A netCDF dimension has both a name and a length.
+~~A dimension may be used to represent a real physical dimension, for example, time, latitude, longitude, or height. A dimension might also be used to index other quantities, for example station or model-run-number.~~
 
-A dimension length is an arbitrary positive integer, except that only one dimension in a classic netCDF dataset can have the length UNLIMITED. In a netCDF-4 dataset, any number of unlimited dimensions can be used.
+~~A netCDF dimension has both a name and a length.~~
 
-Such a dimension is called the unlimited dimension or the record dimension. A variable with an unlimited dimension can grow to any length along that dimension. The unlimited dimension index is like a record number in conventional record-oriented files.
+~~A dimension length is an arbitrary positive integer, except that only one dimension in a classic netCDF dataset can have the length UNLIMITED. In a netCDF-4 dataset, any number of unlimited dimensions can be used.~~
 
-A netCDF classic dataset can have at most one unlimited dimension, but need not have any. If a variable has an unlimited dimension, that dimension must be the most significant (slowest changing) one. Thus any unlimited dimension must be the first dimension in a CDL shape and the first dimension in corresponding C array declarations.
+~~Such a dimension is called the unlimited dimension or the record dimension. A variable with an unlimited dimension can grow to any length along that dimension. The unlimited dimension index is like a record number in conventional record-oriented files.~~
 
-A netCDF-4 dataset may have multiple unlimited dimensions, and there are no restrictions on their order in the list of a variables dimensions.
+~~A netCDF classic dataset can have at most one unlimited dimension, but need not have any. If a variable has an unlimited dimension, that dimension must be the most significant (slowest changing) one. Thus any unlimited dimension must be the first dimension in a CDL shape and the first dimension in corresponding C array declarations.~~
+
+~~A netCDF-4 dataset may have multiple unlimited dimensions, and there are no restrictions on their order in the list of a variables dimensions.~~
 
 To grow variables along an unlimited dimension, write the data using any of the netCDF data writing functions, and specify the index of the unlimited dimension to the desired record number. The netCDF library will write however many records are needed (using the fill value, unless that feature is turned off, to fill in any intervening records).
 
@@ -52,13 +65,13 @@ CDL dimension declarations may appear on one or more lines following the CDL key
 
 There are four dimensions in the above example: lat, lon, level, and time (see \ref data_model). The first three are assigned fixed lengths; time is assigned the length UNLIMITED, which means it is the unlimited dimension.
 
-The basic unit of named data in a netCDF dataset is a variable. When a variable is defined, its shape is specified as a list of dimensions. These dimensions must already exist. The number of dimensions is called the rank (a.k.a. dimensionality). A scalar variable has rank 0, a vector has rank 1 and a matrix has rank 2.
+The basic unit of named data in a netCDF dataset is a variable. When a variable is defined, its shape is specified as a list of dimensions. These dimensions must already exist. ~~The number of dimensions is called the rank (a.k.a. dimensionality). A scalar variable has rank 0, a vector has rank 1 and a matrix has rank 2.~~
 
-It is possible (since version 3.1 of netCDF) to use the same dimension more than once in specifying a variable shape. For example, correlation(instrument, instrument) could be a matrix giving correlations between measurements using different instruments. But data whose dimensions correspond to those of physical space/time should have a shape comprising different dimensions, even if some of these have the same length.
+~~It is possible (since version 3.1 of netCDF) to use the same dimension more than once in specifying a variable shape. For example, correlation(instrument, instrument) could be a matrix giving correlations between measurements using different instruments. But data whose dimensions correspond to those of physical space/time should have a shape comprising different dimensions, even if some of these have the same length.~~
 
 # Variables {#variables}
 
-Variables are used to store the bulk of the data in a netCDF dataset. A variable represents an array of values of the same type. A scalar value is treated as a 0-dimensional array. A variable has a name, a data type, and a shape described by its list of dimensions specified when the variable is created. A variable may also have associated attributes, which may be added, deleted or changed after the variable is created.
+~~Variables are used to store the bulk of the data in a netCDF dataset. A variable represents an array of values of the same type. A scalar value is treated as a 0-dimensional array. A variable has a name, a data type, and a shape described by its list of dimensions specified when the variable is created. A variable may also have associated attributes, which may be added, deleted or changed after the variable is created.~~
 
 A variable external data type is one of a small set of netCDF types. In classic CDF-1 and 2 files, only the original six types are available (byte, character, short, int, float, and double). CDF-5 adds unsigned byte, unsigned short, unsigned int, 64-bit int, and unsigned 64-bit int.  In netCDF-4, variables may also use these additional data types, plus the string data type. Or the user may define a type, as an opaque blob of bytes, as an array of variable length arrays, or as a compound type, which acts like a C struct. (See \ref data_type).
 

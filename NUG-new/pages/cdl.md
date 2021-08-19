@@ -6,12 +6,8 @@ toc: false
 permalink: cdl.html
 ---
 
-NetCDF CDL (Common Data Language) is a text notation
-for describing/representing/communicating/ the structure and data of a binary netCDF file
-in a manner that a human can read (and edit).
-CDL can also be easily read and produced by machines
-with utilities available to generate a CDL description given a netCDF file (ncdump)
-and to generate a netCDF file given a CDL description (ncgen).
+NetCDF CDL (Common Data form Language) is a text notation for representing the structure and data of a binary netCDF dataset.
+CDL can be read (and edited) by a human. It can also be read and produced by machines. For instance, a CDL description can be generated, given a netCDF file, by the `ncdump` utility and a netCDF file can be generated, given a CDL desription, by the `ncgen` utility.
 
 <!--
   Do we need to differentiate between syntax for the Classic and the Enhanced Data Model?
