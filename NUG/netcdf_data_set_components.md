@@ -3,10 +3,15 @@
 [TOC]
 \tableofcontents
 
+<!--
+Except where otherwise indicated, the strikethrough text in this file has been moved to NUG-new/data_models.md.
+Often in corresponding sections.
+-->
+
 # The Data Model {#data_model}
 
 <!--
-The strikethrough text in this section has been moved to NUG-new/netcdf_overview.md
+These two sentences have been moved to NUG-new/netcdf_overview.md
 -->
 
 ~~A netCDF dataset contains dimensions, variables, and attributes, which all have both a name and an ID number by which they are identified.~~  
@@ -14,10 +19,6 @@ The strikethrough text in this section has been moved to NUG-new/netcdf_overview
 The netCDF library allows simultaneous access to multiple netCDF datasets which are identified by dataset ID numbers, in addition to ordinary file names.
 
 ## Enhanced Data Model in NetCDF-4/HDF5 Files {#enhanced_nc4_hdf5}
-
-<!--
-The strikethrough text in this section has been moved to NUG-new/data_models.md
--->
 
 Files created with the netCDF-4 format have access to an enhanced data model, which includes named groups.
 Groups, like directories in a Unix file system, are hierarchically organized, to arbitrary depth.
@@ -43,10 +44,6 @@ Groups and user-defined types are only available in files created in the netCDF-
 
 # Dimensions {#dimensions}
 
-<!--
-The strikethrough text in this section has been moved to NUG-new/data_models.md
--->
-
 ~~A dimension may be used to represent a real physical dimension, for example, time, latitude, longitude, or height. A dimension might also be used to index other quantities, for example station or model-run-number.~~
 
 ~~A netCDF dimension has both a name and a length.~~
@@ -61,7 +58,10 @@ The strikethrough text in this section has been moved to NUG-new/data_models.md
 
 To grow variables along an unlimited dimension, write the data using any of the netCDF data writing functions, and specify the index of the unlimited dimension to the desired record number. The netCDF library will write however many records are needed (using the fill value, unless that feature is turned off, to fill in any intervening records).
 
-CDL dimension declarations may appear on one or more lines following the CDL keyword dimensions. Multiple dimension declarations on the same line may be separated by commas. Each declaration is of the form name = length. Use the “/” character to include group information (netCDF-4 output only).
+<!--
+This paragraph of strikethrough text has been moved to NUG-new/pages/cdl.md
+-->
+~~CDL dimension declarations may appear on one or more lines following the CDL keyword dimensions. Multiple dimension declarations on the same line may be separated by commas. Each declaration is of the form name = length. Use the “/” character to include group information (netCDF-4 output only).~~
 
 There are four dimensions in the above example: lat, lon, level, and time (see \ref data_model). The first three are assigned fixed lengths; time is assigned the length UNLIMITED, which means it is the unlimited dimension.
 
@@ -94,10 +94,13 @@ for scalar variables.
 In the above CDL example there are six variables. As discussed below, four of these are coordinate variables (See \ref coordinate_variables). The remaining variables (sometimes called primary variables), temp and rh, contain what is usually thought of as the data. Each of these variables has the unlimited dimension time as its first dimension, so they are called record variables. A variable that is not a record variable has a fixed length (number of data values) given by the product of its dimension lengths. The length of a record variable is also the product of its dimension lengths, but in this case the product is variable because it involves the length of the unlimited dimension, which can vary. The length of the unlimited dimension is the number of records.
 
 # Coordinate Variables {#coordinate_variables}
+<!--
+The strikethrough text in this section has been moved to NUG-new/data_models.md#coordinate_variables
+-->
 
-It is legal for a variable to have the same name as a dimension. Such variables have no special meaning to the netCDF library. However there is a convention that such variables should be treated in a special way by software using this library.
+~~It is legal for a variable to have the same name as a dimension. Such variables have no special meaning to the netCDF library. However there is a convention that such variables should be treated in a special way by software using this library.~~
 
-A variable with the same name as a dimension is called a <em>coordinate variable</em>. It typically defines a physical coordinate corresponding to that dimension. The above CDL example includes the coordinate variables lat, lon, level and time, defined as follows:
+~~A variable with the same name as a dimension is called a <em>coordinate variable</em>. It typically defines a physical coordinate corresponding to that dimension. The above CDL example includes the coordinate variables lat, lon, level and time, defined as follows:~~
 
 \code
              int     lat(lat), lon(lon), level(level);
@@ -114,23 +117,26 @@ These define the latitudes, longitudes, barometric pressures and times correspon
 
 A position along a dimension can be specified using an index. This is an integer with a minimum value of 0 for C programs, 1 in Fortran programs. Thus the 700 millibar level would have an index value of 2 in the example above in a C program, and 3 in a Fortran program.
 
-If a dimension has a corresponding coordinate variable, then this provides an alternative, and often more convenient, means of specifying position along it. Current application packages that make use of coordinate variables commonly assume they are numeric vectors and strictly monotonic (all values are different and either increasing or decreasing).
+If a dimension has a corresponding coordinate variable, then this provides an alternative, and often more convenient, means of specifying position along it. ~~Current application packages that make use of coordinate variables commonly assume they are numeric vectors and strictly monotonic (all values are different and either increasing or decreasing).~~
 
 # Attributes {#attributes}
+<!--
+The strikethrough text in this section has been moved to NUG-new/data_models.md#attributes
+-->
 
-NetCDF attributes are used to store data about the data (ancillary data or metadata), similar in many ways to the information stored in data dictionaries and schema in conventional database systems. Most attributes provide information about a specific variable. These are identified by the name (or ID) of that variable, together with the name of the attribute.
+~~NetCDF attributes are used to store data about the data (ancillary data or metadata), similar in many ways to the information stored in data dictionaries and schema in conventional database systems. Most attributes provide information about a specific variable. These are identified by the name (or ID) of that variable, together with the name of the attribute.~~
 
-Some attributes provide information about the dataset as a whole and are called global attributes. These are identified by the attribute name together with a blank variable name (in CDL) or a special null "global variable" ID (in C or Fortran).
+~~Some attributes provide information about the dataset as a whole and are called global attributes.~~ These are identified by the attribute name together with a blank variable name (in CDL) or a special null "global variable" ID (in C or Fortran).
 
-In netCDF-4 file, attributes can also be added at the group level.
+~~In netCDF-4 file, attributes can also be added at the group level.~~
 
-An attribute has an associated variable (the null "global variable" for a global or group-level attribute), a name, a data type, a length, and a value. The current version treats all attributes as vectors; scalar values are treated as single-element vectors.
+~~An attribute has an associated variable (the null "global variable" for a global or group-level attribute), a name, a data type, a length, and a value. The current version treats all attributes as vectors; scalar values are treated as single-element vectors.~~
 
-Conventional attribute names should be used where applicable. New names should be as meaningful as possible.
+~~Conventional attribute names should be used where applicable. New names should be as meaningful as possible.~~
 
-The external type of an attribute is specified when it is created. The types permitted for attributes are the same as the netCDF external data types for variables. Attributes with the same name for different variables should sometimes be of different types. For example, the attribute valid_max, specifying the maximum valid data value for a variable of type int, should be of type int. Whereas the attribute valid_max for a variable of type double, should instead be of type double.
+The external type of an attribute is specified when it is created. ~~The types permitted for attributes are the same as the netCDF external data types for variables. Attributes with the same name for different variables should sometimes be of different types. For example, the attribute valid_max, specifying the maximum valid data value for a variable of type int, should be of type int. Whereas the attribute valid_max for a variable of type double, should instead be of type double.~~
 
-Attributes are more dynamic than variables or dimensions; they can be deleted and have their type, length, and values changed after they are created, whereas the netCDF interface provides no way to delete a variable or to change its type or shape.
+~~Attributes are more dynamic than variables or dimensions; they can be deleted and have their type, length, and values changed after they are created, whereas the netCDF interface provides no way to delete a variable or to change its type or shape.~~
 
 The CDL notation for defining an attribute is
 
