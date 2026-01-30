@@ -8,7 +8,7 @@ permalink: cdl.html
 
 NetCDF CDL (Common Data form Language) is a text notation for representing the structure and data of a binary netCDF dataset.
 CDL can be read (and edited) by a human. It can also be read and produced by machines.
-For instance, a CDL description can be generated, given a netCDF file, by the `ncdump` utility and a netCDF file can be generated, given a CDL desription, by the `ncgen` utility.
+For instance, a CDL description can be generated, given a netCDF file, by the `ncdump` utility and a netCDF file can be generated, given a CDL description, by the `ncgen` utility.
 
 [//]: # (TODO: Update the following with more current ncgen man page, Unidata/netcdf-c - ncgen/ncgen.1)
 [//]: # (      The following text was taken from the NUG CDL document, NUG/cdl.md, which is not)
@@ -17,9 +17,7 @@ For instance, a CDL description can be generated, given a netCDF file, by the `n
 [//]: # (TODO: Clarify what is supported in the classic data model and what is supported in the)
 [//]: # (      enhanced data model. The ncgen pages are somewhat focused on the Enhanced data model.)
 
-##  CDL Syntax
-
-### CDL Example: Classic Data Model
+## CDL Example: Classic Data Model
 
 <!-- NOTE: From 2012 workshop CDL page: https://www.unidata.ucar.edu/software/netcdf/workshops/most-recent/nc3model/Cdl.html
 -->
@@ -62,9 +60,9 @@ netcdf example {   // example of CDL notation
             31, 33, 35, 37, 39, 41, 43, 45 ;
 }
 ````
+##  CDL Syntax
 
-<!-- NOTE: Text from NUG/cdl.md
--->
+<!-- NOTE: Text from NUG/cdl.md -->
 
 All CDL statements are terminated by a semicolon.
 Spaces, tabs, and newlines can be used freely for readability.
@@ -72,7 +70,16 @@ Comments may follow the double slash characters '//' on any line.
 
 A CDL description for a classic model file consists of three optional parts:
 dimensions, variables, and data.
+The three optional parts must begin with the keyword `dimensions:`, `variables:`, and `data:`, respectively.
 The variable part may contain variable declarations and attribute assignments.
+
+A CDL description for an enhanced data model file can also include user-defined types and nested groups with the keywords `types:` and `group:`.
+
+Note several things:
+(1) the keyword includes the trailing colon, so there must not be any space before the colon character, and
+(2) the keywords are required to be lower case.
+
+### CDL Example: Enhanced Data Model
 For the enhanced model supported by netCDF-4, a CDL description may also include groups, subgroups, and user-defined types.
 
 ### Dimensions
