@@ -12,13 +12,20 @@ Text from NUG/netcdf_data_set_components.md#dimensions
 -->
 
 A netCDF dimension is defined by its name and its length.
-NetCDF dimensions are used to specify the shape of a netCDF variable.
+NetCDF dimensions are used to specify the shape of netCDF variables.
 Dimensions may be shared between variables.
 A dimension may be used to represent a real physical dimension, for example, time, latitude, longitude, or height.
 A dimension might also be used to index other quantities, for example station or model-run-number.
 
-A dimension length is either an arbitrary positive integer or unlimited.
+A dimension length is either an arbitrary positive integer or `unlimited`.
 Dimensions with an unlimited length are called unlimited dimensions or record dimensions.
+
+Variables defined with unlimited dimensions may be extended along their unlimited dimensions after the file has been written.
+Variables defined without any unlimited dimensions have a fixed size and shape.
+(See more details in the ["Variables with Unlimited Dimensions" section](#variables_with_unlimited_dimensions) below.)
+
+The VLEN (or variable length) data type is described in the ["User Defined Data Types" section](netcdf_data_types.html#user_defined_data_types).
+VLENs can be thought of as a special type of dimension and are handled as dimensions by the netCDF-Java library (and the CDM).
 
 ## Dimension Scope in a Group Hierarchy
 Dimensions are scoped such that they can be seen in all descendant groups.
@@ -43,7 +50,7 @@ A variable may also have associated attributes, which may be added, deleted or c
 A variables shape and the dimensions that make up that shape define the index space that allows individual elements of the variable to be identified.
 Dimensions shared by two or more variables indicates the variables share a grid / coordinate system.
 
-## Variables with Unlimited Dimensions
+## Variables with Unlimited Dimensions {#variables_with_unlimited_dimensions}
 [//]: # (TODO: Is write/access performance impacts part of the data model?)
 [//]: # (TODO: Is relation between dimension ordering and array layout part of data model??)
 
