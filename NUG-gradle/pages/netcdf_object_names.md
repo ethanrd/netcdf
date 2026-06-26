@@ -32,5 +32,8 @@ For instance, the netCDF-C library does not allow names longer than `NC_MAX_NAME
 
 # Conventions and NetCDF Object Names
 
+[//]: # (TODO: Add link to DAP2 Reserved Keywords.)
 Some widely used conventions restrict names to only alphanumeric characters or underscores.
-> Note that, when using the DAP2 protocol to access netCDF data, there are \em reserved keywords, the use of which may result in undefined behavior.  See \ref dap2_reserved_keywords for more information.
+{%include note.html content="
+When using the DAP2 protocol to access netCDF data, there are _reserved_ keywords, the use of which may result in undefined behavior.  See [DAP2 Reserved Keywords]{link coming soon} for more information.
+" %}
