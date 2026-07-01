@@ -28,15 +28,18 @@ This document outlines the policy of Project netCDF ("netCDF")
 regarding the use of its trademarks.
 Any use of any netCDF trademark must be in accordance with this policy.
 
-"netCDF" is a trademark of UCAR, the parent organization of Unidata where Project netCDF is maintained.
+Project netCDF is composed of several data models (Classic and Enhanced), data formats (e.g., netCDF-3 and -4),
+and software implementations (e.g., netCDF-C and netCDF-Java).
+
+"netCDF" is a trademark of UCAR, the parent organization of Unidata where netCDF is maintained.
 
 The netCDF logos (in several variants) are trademarks of UCAR as well.
 
-The netCDF Trademark is registered with the U.S. Patent & Trademark Office.
+The netCDF Trademark is ~~registered with the U.S. Patent & Trademark Office~~ a common law trademark.
 
 Derivative word marks referring to netCDF projects or events,
-such as "netCDFDays," "netCDFLab," "netCDFHub,"
-"netCDF Notebook" are also covered by this policy.
+such as "netCDF-C," "netCDF-Java," "netCDF-C++," "netCDF-Fortran,"
+"netCDF-3," "netCDF-4," are also covered by this policy.
 
 All trademarks, even those that apply to open source software,
 must be used according to certain legal requirements.
@@ -57,7 +60,7 @@ When the trademark no longer represents a certain level of quality to the commun
 or no longer indicates that we are the source of the products that bear the trademark,
 the trademark loses its value.
 
-Underlying Project netCDF's trademark policy is a set of guidelines for what is
+Underlying netCDF's trademark policy is a set of guidelines for what is
 -- and is not -- acceptable use of our trademarks,
 specifically the word mark "netCDF", the netCDF logos,
 and variations of those marks.
@@ -71,14 +74,13 @@ regardless of the uses allowed in this policy.
 
 ## General Goals
 
-In general, we want the word mark "netCDF" and the netCDF logos to be used with minimal restriction to refer to netCDF events, software, or services.
+In general, we want the word mark "netCDF" and the netCDF logos to be used with minimal restriction to refer to netCDF data models, data formats, software, ??events, or services??.
 
 We do not want these trademarks to be used:
 
-- to refer to any other events, software, or services
-- in a way that is misleading or may imply association of third-party events,
-  software, or services with Project netCDF
-- in ways that confuse the community as to whether the software created by Project netCDF is open source and free to use
+- to refer to any other data models, data formats, software, ??events, or services??
+- in a way that is misleading or may imply association of third-party data models, data formats, software, events, or services with netCDF
+- in ways that confuse the community as to whether the software created by netCDF is open source and free to use
 
 
 (uses-that-never-require-approval)=
@@ -140,9 +142,9 @@ Although many uses of netCDF's trademarks are governed by more specific rules,
 which appear in the examples below,
 the following basic guidelines apply to almost any use of netCDF's trademarks.
 
-0. The netCDF trademarks are registered.
+0. The netCDF trademarks are ~~registered~~ common law.
    These marks should be used in accordance with the netCDF [brand guidelines][],
-   and should be accompanied by a symbol for registered trademarks: "(r)" or "®".
+   and should be accompanied by a trademark symbol: "(TM)" or "™".
    This may not be removed or obscured and must always be included with the logo.
    This requirement is waived in all contexts where such marks are not normally included:
    email, online discussion, non-graphical advertisements (when permitted), and academic papers.
@@ -188,11 +190,11 @@ The following rules apply to the use of trademarks in each of these classes.
   contact netCDF for permission if your use is not covered by the nominative use rules
   described in the section "Uses that Never Require Approval" above.
 - Use of the word "netCDF" in the names of user groups and conferences that are free to join or attend (Ex., "netCDF Meetup") --
-  Allowed if referring to the netCDF software. Other uses require permission.
+  Allowed if referring to the netCDF software, data formats, and data models. Other uses require permission.
 - Use of the word "netCDF" in the name of books or publications like "netCDF Journal" and "netCDF Cookbook" --
-  Allowed if referring to the netCDF software.
+  Allowed if referring to the netCDF software, data formats, and data models.
 - Use of the word "netCDF" on websites, brochures, documentation, and product packaging --
-  Allowed if referring to the netCDF software.
+  Allowed if referring to the netCDF software, data formats, and data models.
   Please follow the rules above about the use of the TM symbol.
 - Use of the word "netCDF" in advertisements --
   Allowed in most cases by the nominative use rules described in the section
