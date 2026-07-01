@@ -24,11 +24,11 @@ these guidelines are quite similar.
 
 ## Introduction
 
-This document outlines the policy of the Project netCDF ("netCDF")
+This document outlines the policy of Project netCDF ("netCDF")
 regarding the use of its trademarks.
-Any use of any Project netCDF trademark must be in accordance with this policy.
+Any use of any netCDF trademark must be in accordance with this policy.
 
-"netCDF" is a trademark of UCAR, of which Project netCDF is a part.
+"netCDF" is a trademark of UCAR, the parent organization of Unidata where Project netCDF is maintained.
 
 The netCDF logos (in several variants) are trademarks of UCAR as well.
 
@@ -118,13 +118,13 @@ Because of this, we would love help from the community in creating an official p
 netCDF branded merchandise with the profits going back to the project through UCAR.
 
 If you are interested in helping out with this please get in touch with us on
-the [netCDF Google Group][].
+the [netCDF Email List][].
 Offering netCDF branded merchandise for sale without explicit approval is not permitted.
 
 
 ## Uses that Always Require Approval
 
-Any commercial use of the netCDF trademarks in product or company names must be approved first by  Project netCDF.
+Any commercial use of the netCDF trademarks in product or company names must be approved first by Project netCDF.
 Some uses, like calling a company "The netCDF Company," or a product "netCDF Hosting" or "netCDF Cloud" will be refused.
 This is because they are overly broad,
 or confusing as to whether netCDF is open source or commercial,
@@ -229,8 +229,8 @@ The following rules apply to the use of trademarks in each of these classes.
 This document is derived from the [Python Software Foundation trademark policy][PSF-trademarks].
 
 
-[brand guidelines]: https://github.com/netCDF/design/tree/master/brandguide
-[netCDF Trademarks Committee]: mailto:netCDF-trademarks@googlegroups.com
-[netCDF Google Group]: https://groups.google.com/forum/#!forum/netCDF
+[brand guidelines]: https://github.com/unidata/netcdf/tree/main/brandguide
+[netCDF Trademarks Committee]: mailto:support-netcdf@unidata.ucar.edu
+[netCDF Email List]: mailto:netcdfgroup@unidata.ucar.edu
 [Jupyter-trademarks]: https://jupyter.org/governance/trademarks/
 [PSF-trademarks]: https://www.python.org/psf/trademarks/
