@@ -6,38 +6,31 @@ while encouraging the community to liberally use the trademarks.
 In general:
 
 - If you are using the netCDF name or a netCDF logo to refer to netCDF, that is generally allowed, and you don't need to ask permission.
-- If you are using a netCDF logo, please use an unmodified version from the [brand guidelines][].
+- If you are using a netCDF logo, please use an [unmodified logo][netcdf-logos].
 
 See the [Uses that Never Require Approval](#uses-that-never-require-approval)
 section for the details in most common cases,
-and feel free to get in touch with the [netCDF Trademarks Committee][] if you have any further questions.
-
-## Trademark Subcommittee Members
-
-```{team-members} trademark_subcommittee
-```
+and feel free to contact [netCDF Support][] if you have any further questions.
 
 This document is based on the [Jupyter Trademark Usage Policy][Jupyter-trademarks]
 and the [Python Software Foundation trademark policy][PSF-trademarks],
 so if you are familiar with use of Jupyter and Python and their logos and trademarks,
 these guidelines are quite similar.
 
+
 ## Introduction
 
-This document outlines the policy of Project netCDF ("netCDF")
-regarding the use of its trademarks.
+This document outlines the policy for the use of the netCDF trademarks.
 Any use of any netCDF trademark must be in accordance with this policy.
 
-Project netCDF is composed of several data models (Classic and Enhanced), data formats (e.g., netCDF-3 and -4),
-and software implementations (e.g., netCDF-C and netCDF-Java).
+"netCDF" is an unregistered (common law) trademark of the University Corporation for Atmospheric Research (UCAR), the parent organization of NSF Unidata where netCDF is maintained.
 
-"netCDF" is a trademark of UCAR, the parent organization of Unidata where netCDF is maintained.
+The netCDF logos are unregistered trademarks of UCAR as well.
 
-The netCDF logos (in several variants) are trademarks of UCAR as well.
+The netCDF project is composed of several data formats (e.g., netCDF-3 and -4),
+data models (Classic and Enhanced), and software implementations (e.g., netCDF-C and netCDF-Java).
 
-The netCDF Trademark is ~~registered with the U.S. Patent & Trademark Office~~ a common law trademark.
-
-Derivative word marks referring to netCDF projects or events,
+Derivative word marks referring to netCDF projects,
 such as "netCDF-C," "netCDF-Java," "netCDF-C++," "netCDF-Fortran,"
 "netCDF-3," "netCDF-4," are also covered by this policy.
 
@@ -74,13 +67,13 @@ regardless of the uses allowed in this policy.
 
 ## General Goals
 
-In general, we want the word mark "netCDF" and the netCDF logos to be used with minimal restriction to refer to netCDF data models, data formats, software, ??events, or services??.
+In general, we want the word mark "netCDF" and the netCDF logos to be used with minimal restriction to refer to netCDF data formats, data models, software, events, or services.
 
 We do not want these trademarks to be used:
 
-- to refer to any other data models, data formats, software, ??events, or services??
+- to refer to any other data models, data formats, software, events, or services
 - in a way that is misleading or may imply association of third-party data models, data formats, software, events, or services with netCDF
-- in ways that confuse the community as to whether the software created by netCDF is open source and free to use
+- in ways that confuse the community as to whether the netCDF data formats, data models, and software are open source and free to use
 
 
 (uses-that-never-require-approval)=
@@ -90,49 +83,27 @@ All trademarks are subject to "nominative use rules" that allow use of the trade
 to name the trademarked entity in a way that is minimal
 and does not imply a sponsorship relationship with the trademark holder.
 
-As such, stating accurately that software, a service, or an activity uses netCDF software,
-integrates with netCDF software, that it is compatible with netCDF software,
+As such, stating accurately that data, software, a service, or an activity uses netCDF,
+integrates with netCDF, that it is compatible with netCDF,
 or that it contains netCDF software, is always allowed.
 In those cases, you may use the word "netCDF", unaltered netCDF logos, or images or videos
-of netCDF applications to indicate this, without our prior approval, provided such use does
-not imply Project netCDF's sponsorship or endorsement.
+of netCDF applications to indicate this, without our prior approval.
 This is true both for non-commercial and commercial uses.
 
 This clause overrides other clauses of this policy.
 However, if you have any doubts about your intended use of the trademarks,
-please contact the [netCDF Trademarks Committee][].
-
-
-### Use of the netCDF trademark on merchandise
-
-Using the netCDF trademarks *to refer to* netCDF on your own product's merchandise is covered by the [Uses that Never Require Approval](#uses-that-never-require-approval) above.
-
-We encourage use of the netCDF trademarks (logo and word mark) on stickers, hats, mugs, t-shirts,
-and other physical merchandise to promote the project and the broader open-source ecosystem.
-No explicit approval is needed for these uses as long as
-
-1. the use follows the official netCDF Brand Guidelines and
-2. the merchandise is provided free of charge.
-
-We understand that not everyone (including ourselves) can afford to give away merchandise
-in sufficient quantities to meet demand.
-Because of this, we would love help from the community in creating an official place to purchase
-netCDF branded merchandise with the profits going back to the project through UCAR.
-
-If you are interested in helping out with this please get in touch with us on
-the [netCDF Email List][].
-Offering netCDF branded merchandise for sale without explicit approval is not permitted.
+please contact [netCDF Support][].
 
 
 ## Uses that Always Require Approval
 
-Any commercial use of the netCDF trademarks in product or company names must be approved first by Project netCDF.
+Any commercial use of the netCDF trademarks in product or company names must be approved first by UCAR.
 Some uses, like calling a company "The netCDF Company," or a product "netCDF Hosting" or "netCDF Cloud" will be refused.
 This is because they are overly broad,
 or confusing as to whether netCDF is open source or commercial,
-or whether your product or organization is affiliated with or sponsored by Project netCDF.
+or whether your product or organization is affiliated with or sponsored by netCDF.
 
-Any use of a derived (modified) logo for any commercial or non-commercial purpose must also be approved first by Project netCDF.
+Any use of a derived (modified) logo for any commercial or non-commercial purpose must also be approved first by UCAR.
 We will generally be unable to do this because of the confusion it may cause.
 
 
@@ -142,19 +113,14 @@ Although many uses of netCDF's trademarks are governed by more specific rules,
 which appear in the examples below,
 the following basic guidelines apply to almost any use of netCDF's trademarks.
 
-0. The netCDF trademarks are ~~registered~~ common law.
-   These marks should be used in accordance with the netCDF [brand guidelines][],
-   and should be accompanied by a trademark symbol: "(TM)" or "™".
-   This may not be removed or obscured and must always be included with the logo.
-   This requirement is waived in all contexts where such marks are not normally included:
-   email, online discussion, non-graphical advertisements (when permitted), and academic papers.
-   We encourage the use of the symbol whenever possible,
-   but recognize that many non-commercial and informal uses will omit it.
+0. The first or most prominent mention of a netCDF trademark should be immediately followed by a symbol for unregistered trademark: "(TM)" or a small TM "™". For example "netCDF™ ..." This requirement is waived in all contexts where such marks are not normally included: email, online discussion, non-graphical advertisements (when permitted), and academic papers. We encourage the use of the symbol whenever possible, but recognize that many non-commercial and informal uses will omit it.
+
+0. The netCDF logos should be used in the form [provided by the netCDF project][netcdf-logos], and should be accompanied by a symbol for unregistered trademarks: "(TM)" or a small TM "™". This may not be removed or obscured and must always be included with the logo.
 
 0. If the word "netCDF" or the netCDF logos are used in certain contexts,
    the following statement should accompany its use:
 
-   > "netCDF" and the netCDF logos are trademarks or registered trademarks of UCAR,
+   > "netCDF" and the netCDF logos are trademarks of UCAR,
    > used by ___________ with permission.
 
 0. For websites and documentation this can be on a "legal statements" page.
@@ -180,14 +146,14 @@ The following rules apply to the use of trademarks in each of these classes.
 - Use of the word "netCDF" in the names of freely distributed products like PnetCDF,
   RnetCDF, netCDF4-python --
   Allowed when referring to use with or suitability for netCDF.
-  For commercial products, contact the netCDF Trademark Committee for permission.
+  For commercial products, contact [netCDF Support][] to request permission.
 - Use of the word "netCDF" in company names --
-  Allowed only by prior written permission from the netCDF Trademark Committee.
+  Allowed only by prior written permission from UCAR (contact [netCDF Support][]).
 - Use of the word "netCDF" when redistributing netCDF software as part of
   a freely distributed application -- Allowed.
   If the standard version of the netCDF software is modified,
   this should be clearly indicated. For commercial distributions,
-  contact netCDF for permission if your use is not covered by the nominative use rules
+  contact [netCDF Support][] for permission if your use is not covered by the nominative use rules
   described in the section "Uses that Never Require Approval" above.
 - Use of the word "netCDF" in the names of user groups and conferences that are free to join or attend (Ex., "netCDF Meetup") --
   Allowed if referring to the netCDF software, data formats, and data models. Other uses require permission.
@@ -195,7 +161,6 @@ The following rules apply to the use of trademarks in each of these classes.
   Allowed if referring to the netCDF software, data formats, and data models.
 - Use of the word "netCDF" on websites, brochures, documentation, and product packaging --
   Allowed if referring to the netCDF software, data formats, and data models.
-  Please follow the rules above about the use of the TM symbol.
 - Use of the word "netCDF" in advertisements --
   Allowed in most cases by the nominative use rules described in the section
   "Uses that Never Require Approval" above.
@@ -204,7 +169,7 @@ The following rules apply to the use of trademarks in each of these classes.
 - Use of the word "netCDF" in academic papers, theses, and books --
   Allowed without the TM symbol. Books should include the symbol.
 - Use of the word "netCDF" in another trademark --
-  Not allowed without prior written permission from netCDF, except as described above.
+  Not allowed without prior written permission from UCAR, except as described above.
 - Use of the word "netCDF" in a domain name --
   Allowed in subdomains and url paths,
   such as "`netCDF.example.com`" and "`example.com/netCDF`".
@@ -217,22 +182,30 @@ The following rules apply to the use of trademarks in each of these classes.
 - Use of unaltered netCDF-provided logos on T-shirts, mugs, etc. --
   Again, non-commercial uses to promote the netCDF software are allowed.
   Commercial uses (which includes any use where you sell these items for money)
-  require permission from Project netCDF.
+  require permission from UCAR.
   Please reproduce our logos with the right colors and fonts; if you need help, let us know.
-  See the [brand guidelines][].
 - Use of unaltered netCDF-provided logos on websites, brochures, and product packaging.
-  Non-commercial uses to promote the netCDF software are allowed,
+  Non-commercial uses to promote netCDF data formats, data models, or software are allowed,
   as are all nominative uses as described in the section "Uses that Never Require Approval".
-  Any other commercial uses require prior written permission from Project netCDF.
-  See the [brand guidelines][].
+  Any other commercial uses require prior written permission from UCAR.
+
+## Notes
+
+Commercial trademark uses that predate this policy (prior to ?????) do not require permission from UCAR if the use is consistent with this policy. However, if you think you may have used the netCDF trademarks in the past in ways that would violate this policy, we recommend seeking permission.
+
+## Helping Out
+As a member of the netCDF community, please keep an eye out for questionable uses of the netCDF logo and "netCDF" word mark. You can report potential misuse to [netCDF Support][]. We will evaluate each case and take appropriate action.
+
+Please do not approach users of the trademarks with a complaint. That should be left to the UCAR and its representatives.
+
+Thanks!
 
 ## Acknowledgments
 
-This document is derived from the [Python Software Foundation trademark policy][PSF-trademarks].
+This document is derived from the [Python Software Foundation trademark policy][PSF-trademarks] and the and the [Python Software Foundation trademark policy][PSF-trademarks].
 
 
-[brand guidelines]: https://github.com/unidata/netcdf/tree/main/brandguide
-[netCDF Trademarks Committee]: mailto:support-netcdf@unidata.ucar.edu
-[netCDF Email List]: mailto:netcdfgroup@unidata.ucar.edu
+[netcdf-logos]: https://www.unidata.ucar.edu/software/logos
+[netCDF Support]: mailto:support-netcdf@unidata.ucar.edu
 [Jupyter-trademarks]: https://jupyter.org/governance/trademarks/
 [PSF-trademarks]: https://www.python.org/psf/trademarks/
