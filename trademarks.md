@@ -20,6 +20,9 @@ these guidelines are quite similar.
 
 ## Introduction
 
+NetCDF (Network Common Data Form) is a set of software libraries, data models, and machine-independent data formats that support the creation, access, and sharing of array-oriented scientific data.
+The netCDF project is created and maintained by the NSF Unidata Program, which is hosted by the University Corporation for Atmospheric Research (UCAR).
+
 This document outlines the policy for the use of the netCDF trademarks.
 Any use of any netCDF trademark must be in accordance with this policy.
 
@@ -57,7 +60,7 @@ Underlying netCDF's trademark policy is a set of guidelines for what is
 -- and is not -- acceptable use of our trademarks,
 specifically the word mark "netCDF", the netCDF logos,
 and variations of those marks.
-This policy describes the uses generally approved by netCDF and UCAR for its trademarks.
+This policy describes the uses generally approved by UCAR for its trademarks.
 However, if you violate this policy,
 or otherwise take actions that may compromise the reputation or trademarks of netCDF,
 or expose UCAR to liability,
@@ -76,7 +79,6 @@ We do not want these trademarks to be used:
 - in ways that confuse the community as to whether the netCDF data formats, data models, and software are open source and free to use
 
 
-(uses-that-never-require-approval)=
 ## Uses that Never Require Approval
 
 All trademarks are subject to "nominative use rules" that allow use of the trademark
@@ -101,7 +103,7 @@ Any commercial use of the netCDF trademarks in product or company names must be 
 Some uses, like calling a company "The netCDF Company," or a product "netCDF Hosting" or "netCDF Cloud" will be refused.
 This is because they are overly broad,
 or confusing as to whether netCDF is open source or commercial,
-or whether your product or organization is affiliated with or sponsored by netCDF.
+or whether your product or organization is affiliated with or sponsored by the netCDF project.
 
 Any use of a derived (modified) logo for any commercial or non-commercial purpose must also be approved first by UCAR.
 We will generally be unable to do this because of the confusion it may cause.
@@ -113,30 +115,38 @@ Although many uses of netCDF's trademarks are governed by more specific rules,
 which appear in the examples below,
 the following basic guidelines apply to almost any use of netCDF's trademarks.
 
-0. The first or most prominent mention of a netCDF trademark should be immediately followed by a symbol for unregistered trademark: "(TM)" or a small TM "™". For example "netCDF™ ..." This requirement is waived in all contexts where such marks are not normally included: email, online discussion, non-graphical advertisements (when permitted), and academic papers. We encourage the use of the symbol whenever possible, but recognize that many non-commercial and informal uses will omit it.
+1. The first or most prominent mention of a netCDF trademark
+   should be immediately followed by a symbol for unregistered trademark: "(TM)" or a small TM "™".
+   For example "netCDF™ ..."
+   This requirement is waived in all contexts where such marks are not normally included:
+   email, online discussion, non-graphical advertisements (when permitted), and academic papers.
+   We encourage the use of the symbol whenever possible,
+   but recognize that many non-commercial and informal uses will omit it.
 
-0. The netCDF logos should be used in the form [provided by the netCDF project][netcdf-logos], and should be accompanied by a symbol for unregistered trademarks: "(TM)" or a small TM "™". This may not be removed or obscured and must always be included with the logo.
+2. The netCDF logos should be used in the form [provided by the netCDF project][netcdf-logos],
+   and should be accompanied by a symbol for unregistered trademarks: "(TM)" or a small TM "™".
+   This may not be removed or obscured and must always be included with the logo.
 
-0. If the word "netCDF" or the netCDF logos are used in certain contexts,
+3. If the word "netCDF" or the netCDF logos are used in certain contexts,
    the following statement should accompany its use:
 
    > "netCDF" and the netCDF logos are trademarks of UCAR,
    > used by ___________ with permission.
 
-0. For websites and documentation this can be on a "legal statements" page.
+4. For websites and documentation this can be on a "legal statements" page.
    For brochures and published articles, this statement is optional.
    We encourage use of this statement, particularly for published materials,
    but recognize some non-commercial and informal uses will omit it.
 
-0. Don't use the trademark as a verb ("netCDF your software today!").
+5. Don't use the trademark as a verb ("netCDF your software today!").
 
 
 ## Examples
 
 We have specific rules for the following uses:
 
-0. Use of the word "netCDF" in text, or as text in 3rd party logos and trademarks.
-0. Use of one of the netCDF-provided logo variants in unaltered form.
+1. Use of the word "netCDF" in text, or as text in 3rd party logos and trademarks.
+2. Use of one of the netCDF-provided logo variants in unaltered form.
 
 The following rules apply to the use of trademarks in each of these classes.
 
@@ -173,8 +183,10 @@ The following rules apply to the use of trademarks in each of these classes.
 - Use of the word "netCDF" in a domain name --
   Allowed in subdomains and url paths,
   such as "`netCDF.example.com`" and "`example.com/netCDF`".
-  Allowed in base domains where the organization responsible for the service is clear in the name itself, e.g. "`myorganization-netCDF.org`" or "`uoffoonetCDFusers.edu`".
-  Not allowed in base domains on its own or with only generic terms, such as "`netCDFcloud.com`" or "`hostednetCDF.horse`".
+  Allowed in base domains where the organization responsible for the service is clear in the name itself,
+  e.g. "`myorganization-netCDF.org`" or "`uoffoonetCDFusers.edu`".
+  Not allowed in base domains on its own or with only generic terms, such as "`netCDFcloud.com`"
+  or "`hostednetCDF.horse`".
 
 
 ### Unaltered Logos
@@ -189,20 +201,35 @@ The following rules apply to the use of trademarks in each of these classes.
   as are all nominative uses as described in the section "Uses that Never Require Approval".
   Any other commercial uses require prior written permission from UCAR.
 
+## Citing and Acknowledging netCDF
+
+If the document using the netCDF mark provides statements of acknowledgement or attribution for third-party software packages, please consider adding the statement:
+
+> "The netCDF libraries and formats are created and maintained by the NSF Unidata Program,
+> which is hosted by UCAR. For more information see https://www.unidata.ucar.edu/software/netcdf"
+
 ## Notes
 
-Commercial trademark uses that predate this policy (prior to ?????) do not require permission from UCAR if the use is consistent with this policy. However, if you think you may have used the netCDF trademarks in the past in ways that would violate this policy, we recommend seeking permission.
+Commercial trademark uses that predate this policy (prior to ?? Aug? 2026)
+do not require permission from UCAR if the use is consistent with this policy.
+However, if you think you may have used the netCDF trademarks in the past
+in ways that would violate this policy, we recommend seeking permission.
 
 ## Helping Out
-As a member of the netCDF community, please keep an eye out for questionable uses of the netCDF logo and "netCDF" word mark. You can report potential misuse to [netCDF Support][]. We will evaluate each case and take appropriate action.
+As a member of the netCDF community, please keep an eye out for questionable uses of the netCDF logo 
+and "netCDF" word mark.
+You can report potential misuse to [netCDF Support][].
+We will evaluate each case and take appropriate action.
 
-Please do not approach users of the trademarks with a complaint. That should be left to the UCAR and its representatives.
+Please do not approach users of the trademarks with a complaint.
+That should be left to UCAR and its representatives.
 
 Thanks!
 
 ## Acknowledgments
 
-This document is derived from the [Python Software Foundation trademark policy][PSF-trademarks] and the and the [Python Software Foundation trademark policy][PSF-trademarks].
+This document is derived from the [Jupyter trademark policy][Jupyter-trademarks]
+and the [Python Software Foundation trademark policy][PSF-trademarks].
 
 
 [netcdf-logos]: https://www.unidata.ucar.edu/software/logos
