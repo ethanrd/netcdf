@@ -1,4 +1,4 @@
-# Trademarks Usage Policy
+# Trademarks Usage Policy (DRAFT)
 
 This document's goal is to clarify allowed uses of the netCDF trademarks.
 We wish to implement a very permissive policy that legally protects the trademarks
@@ -10,7 +10,7 @@ In general:
 
 See the [Uses that Never Require Approval](#uses-that-never-require-approval)
 section for the details in most common cases,
-and feel free to contact [netCDF Support][] if you have any further questions.
+and feel free to contact [netCDF Support][netcdf-support] if you have any further questions.
 
 This document is based on the [Jupyter Trademark Usage Policy][Jupyter-trademarks]
 and the [Python Software Foundation trademark policy][PSF-trademarks],
@@ -60,7 +60,7 @@ Underlying netCDF's trademark policy is a set of guidelines for what is
 -- and is not -- acceptable use of our trademarks,
 specifically the word mark "netCDF", the netCDF logos,
 and variations of those marks.
-This policy describes the uses generally approved by UCAR for its trademarks.
+This policy describes the uses generally approved by UCAR for these trademarks.
 However, if you violate this policy,
 or otherwise take actions that may compromise the reputation or trademarks of netCDF,
 or expose UCAR to liability,
@@ -94,7 +94,7 @@ This is true both for non-commercial and commercial uses.
 
 This clause overrides other clauses of this policy.
 However, if you have any doubts about your intended use of the trademarks,
-please contact [netCDF Support][].
+please contact [netCDF Support][netcdf-support].
 
 
 ## Uses that Always Require Approval
@@ -103,7 +103,7 @@ Any commercial use of the netCDF trademarks in product or company names must be 
 Some uses, like calling a company "The netCDF Company," or a product "netCDF Hosting" or "netCDF Cloud" will be refused.
 This is because they are overly broad,
 or confusing as to whether netCDF is open source or commercial,
-or whether your product or organization is affiliated with or sponsored by the netCDF project.
+or whether your product or organization is affiliated with or sponsored by UCAR or the netCDF project.
 
 Any use of a derived (modified) logo for any commercial or non-commercial purpose must also be approved first by UCAR.
 We will generally be unable to do this because of the confusion it may cause.
@@ -156,14 +156,14 @@ The following rules apply to the use of trademarks in each of these classes.
 - Use of the word "netCDF" in the names of freely distributed products like PnetCDF,
   RnetCDF, netCDF4-python --
   Allowed when referring to use with or suitability for netCDF.
-  For commercial products, contact [netCDF Support][] to request permission.
+  For commercial products, contact [netCDF Support][netcdf-support] to request permission.
 - Use of the word "netCDF" in company names --
-  Allowed only by prior written permission from UCAR (contact [netCDF Support][]).
+  Allowed only by prior written permission from UCAR (contact [netCDF Support][netcdf-support]).
 - Use of the word "netCDF" when redistributing netCDF software as part of
   a freely distributed application -- Allowed.
   If the standard version of the netCDF software is modified,
   this should be clearly indicated. For commercial distributions,
-  contact [netCDF Support][] for permission if your use is not covered by the nominative use rules
+  contact [netCDF Support][netcdf-support] for permission if your use is not covered by the nominative use rules
   described in the section "Uses that Never Require Approval" above.
 - Use of the word "netCDF" in the names of user groups and conferences that are free to join or attend (Ex., "netCDF Meetup") --
   Allowed if referring to the netCDF software, data formats, and data models. Other uses require permission.
@@ -201,12 +201,20 @@ The following rules apply to the use of trademarks in each of these classes.
   as are all nominative uses as described in the section "Uses that Never Require Approval".
   Any other commercial uses require prior written permission from UCAR.
 
+## Supporting netCDF
+
+To support netCDF and Unidata's non-profit mission, the project suggests that entities using the netCDF name or logo consider making a donation to Unidata.
+
+Donations to the NSF Unidata (hosted by UCAR) may be made on our donation page.
+
 ## Citing and Acknowledging netCDF
 
 If the document using the netCDF mark provides statements of acknowledgement or attribution for third-party software packages, please consider adding the statement:
 
 > "The netCDF libraries and formats are created and maintained by the NSF Unidata Program,
-> which is hosted by UCAR. For more information see https://www.unidata.ucar.edu/software/netcdf"
+> which is hosted by UCAR. For more information see https://www.unidata.ucar.edu/software/netcdf".
+
+Or cite netCDF using the netCDF DOI (https://doi.org/10.5065/D6H70CW6) as described on the ["Acknowledge NSF Unidata" page](https://www.unidata.ucar.edu/about/acknowledge-nsf-unidata).
 
 ## Notes
 
@@ -218,7 +226,7 @@ in ways that would violate this policy, we recommend seeking permission.
 ## Helping Out
 As a member of the netCDF community, please keep an eye out for questionable uses of the netCDF logo 
 and "netCDF" word mark.
-You can report potential misuse to [netCDF Support][].
+You can report potential misuse to [netCDF Support][netcdf-support].
 We will evaluate each case and take appropriate action.
 
 Please do not approach users of the trademarks with a complaint.
@@ -233,6 +241,6 @@ and the [Python Software Foundation trademark policy][PSF-trademarks].
 
 
 [netcdf-logos]: https://www.unidata.ucar.edu/software/logos
-[netCDF Support]: mailto:support-netcdf@unidata.ucar.edu
+[netcdf-support]: mailto:support-netcdf@unidata.ucar.edu
 [Jupyter-trademarks]: https://jupyter.org/governance/trademarks/
 [PSF-trademarks]: https://www.python.org/psf/trademarks/
