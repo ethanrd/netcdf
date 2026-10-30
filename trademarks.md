@@ -103,7 +103,7 @@ Any commercial use of the netCDF trademarks in product or company names must be 
 Some uses, like calling a company "The netCDF Company," or a product "netCDF Hosting" or "netCDF Cloud" will be refused.
 This is because they are overly broad,
 or confusing as to whether netCDF is open source or commercial,
-or whether your product or organization is affiliated with or sponsored by UCAR or the netCDF project.
+or whether your product or organization is affiliated with or sponsored by UCAR, Unidata, or the netCDF project.
 
 Any use of a derived (modified) logo for any commercial or non-commercial purpose must also be approved first by UCAR.
 We will generally be unable to do this because of the confusion it may cause.
@@ -201,12 +201,6 @@ The following rules apply to the use of trademarks in each of these classes.
   as are all nominative uses as described in the section "Uses that Never Require Approval".
   Any other commercial uses require prior written permission from UCAR.
 
-## Supporting netCDF
-
-To support netCDF and Unidata's non-profit mission, the project suggests that entities using the netCDF name or logo consider making a donation to Unidata.
-
-Donations to the NSF Unidata (hosted by UCAR) may be made on our donation page.
-
 ## Citing and Acknowledging netCDF
 
 If the document using the netCDF mark provides statements of acknowledgement or attribution for third-party software packages, please consider adding the statement:
@@ -215,6 +209,12 @@ If the document using the netCDF mark provides statements of acknowledgement or 
 > which is hosted by UCAR. For more information see https://www.unidata.ucar.edu/software/netcdf".
 
 Or cite netCDF using the netCDF DOI (https://doi.org/10.5065/D6H70CW6) as described on the ["Acknowledge NSF Unidata" page](https://www.unidata.ucar.edu/about/acknowledge-nsf-unidata).
+
+## Supporting netCDF
+
+To support netCDF and Unidata's non-profit mission, the project suggests that entities using the netCDF name or logo consider making a donation to Unidata.
+
+Donations to the NSF Unidata (hosted by UCAR) may be made on our donation page.
 
 ## Notes
 
